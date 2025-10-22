@@ -29,6 +29,7 @@ let workderdProfile = Profile(
         let bins = [
             "./bin/workerd-fuzzilli-asan",
             "./bin/workerd-fuzzilli-asan-lsan",
+            "./bin/workerd-fuzzilli-cfi-ubsan",
             "./bin/workerd-fuzzilli-lsan",
             "./bin/workerd-fuzzilli-tsan",
             "./bin/workerd-fuzzilli-ubsan",
