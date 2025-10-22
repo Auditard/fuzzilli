@@ -14,20 +14,31 @@
 
 import Fuzzilli
 
-fileprivate let HoleLeakGenerator = CodeGenerator("HoleLeakGenerator", produces: [.jsAnything]) { b in
-    b.eval("%LeakHole()", hasOutput: true)
-}
-
 let workderdProfile = Profile(
     processArgs: { randomize in
         var args = [
             "reprl",
         ]
 
+        guard randomize else { return args }
+
         return args
     },
 
-    processBinaries: nil,
+    processBinaries: { randomize in
+        let bins = [
+            "./bin/workerd-fuzzilli-asan",
+            "./bin/workerd-fuzzilli-asan-lsan",
+            "./bin/workerd-fuzzilli-lsan",
+            "./bin/workerd-fuzzilli-tsan",
+            "./bin/workerd-fuzzilli-ubsan",
+            "./bin/workerd-fuzzilli-ubsan-minimal",
+        ]
+
+        guard randomize else { return bins[0] }
+
+        return bins.randomElement() ?? bins[0]
+    },
 
     // ASan options.
     // - abort_on_error=true: We need asan to exit in a way that's detectable for Fuzzilli as a crash

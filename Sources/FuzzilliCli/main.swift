@@ -94,6 +94,7 @@ Options:
                                    to disk for every interesting or crashing program. These describe in detail how the program was generated
                                    through mutations, code generation, and minimization.
     --argumentRandomization      : Enable JS engine argument randomization
+    --binariesRandomization      : Enable random binary selector
     --additionalArguments=args   : Pass additional arguments to the JS engine. If multiple arguments are passed, they should be separated by a comma.
     --tag=tag                    : Optional string tag associated with this instance which will be stored in the settings.json file as well as in crashing samples.
                                    This can for example be used to remember the target revision that is being fuzzed.
@@ -153,6 +154,7 @@ let diagnostics = args.has("--diagnostics")
 let inspect = args.has("--inspect")
 let swarmTesting = args.has("--swarmTesting")
 let argumentRandomization = args.has("--argumentRandomization")
+let binariesRandomization = args.has("--binariesRandomization")
 let additionalArguments = args["--additionalArguments"] ?? ""
 let tag = args["--tag"]
 let enableWasm = args.has("--wasm")
@@ -382,7 +384,7 @@ logger.info("Using the following arguments for the target engine: \(jsShellArgum
 let jsShellBinaryProvider: (_ randomize: Bool) -> String = profile.processBinaries ?? { _ in jsShellPath }
 
 func selectJSShellBinaryPath() -> String {
-    let selectedPath = jsShellBinaryProvider(argumentRandomization)
+    let selectedPath = jsShellBinaryProvider(binariesRandomization)
     if !FileManager.default.fileExists(atPath: selectedPath) {
         configError("Invalid JS shell path \"\(selectedPath)\", file does not exist")
     }
