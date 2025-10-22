@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="908f1453-627c-439b-b262-cea4c37ee231" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Sources/FuzzilliCli/Profiles/Profile.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/FuzzilliCli/Profiles/Profile.swift" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="PHoc9H3C" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="347JMm616RtxDEIeKZ5etTLAait" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;test/workerd&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu-24.04/home/joe/Arsenal/fuzzilli/Sources/FuzzilliCli/Profiles&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.anthropic.code.plugin.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu-24.04\home\joe\Arsenal\fuzzilli\Sources\FuzzilliCli\Profiles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu-24.04\home\joe\Arsenal\fuzzilli\bin" />
+    </key>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$PROJECT_DIR$/../../.cargo/bin" />
+  </component>
+  <component name="SwiftWorkspaceSettings">
+    <option name="detectedToolchain" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="908f1453-627c-439b-b262-cea4c37ee231" name="Changes" comment="" />
+      <created>1760558630594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760558630594</updated>
+      <workItem from="1760558631880" duration="19000" />
+      <workItem from="1760558670552" duration="13133000" />
+      <workItem from="1760624094511" duration="20892000" />
+      <workItem from="1760796932897" duration="5735000" />
+      <workItem from="1760812567779" duration="324000" />
+      <workItem from="1760812912063" duration="48000" />
+      <workItem from="1760812994787" duration="94000" />
+      <workItem from="1760813108758" duration="34000" />
+      <workItem from="1760813174379" duration="70000" />
+      <workItem from="1760813264199" duration="270000" />
+      <workItem from="1760813551435" duration="175000" />
+      <workItem from="1760813785289" duration="115000" />
+      <workItem from="1760814145911" duration="296000" />
+      <workItem from="1760814508840" duration="578000" />
+      <workItem from="1760815110216" duration="113000" />
+      <workItem from="1760815261645" duration="49000" />
+      <workItem from="1760815358931" duration="12464000" />
+      <workItem from="1760833992612" duration="3495000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
